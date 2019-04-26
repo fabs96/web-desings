@@ -1,0 +1,55 @@
+body{
+  background-image: url("../../images/fondo.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+header{
+  border-right: 1px solid white;
+  margin: 5px auto;
+  padding: 10px;
+}
+.container{
+  width: 80%;
+  height: 100%;
+  background: #bdbdbd;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+.column-1{
+  background: #18ffff;
+
+}
+.column-2{
+  background: #b39ddb;
+}
+h2 {
+  font-weight: bold;
+  font-style: italic;
+}
+.th{
+  float:none;
+  width: 100%;
+  height: 400px;
+}
+.th-img{
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.hist{
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+
+}
+.hist:hover{
+  text-decoration: underline;
+
+}
+.fecha{
+  font-style: italic;
+  font-size: 20px;
+  color: red;
+}

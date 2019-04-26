@@ -1,0 +1,43 @@
+header{
+  background: #90caf9;
+}
+.icons-img{
+  width:50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+.color{
+  background: yellow;
+  border-radius: 10px;
+  color: white;
+}
+.busqueda{
+  background: gray;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+}
+.coment{
+  border-radius: 20px;
+}
+.form-control-feedback{
+  position:absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.span-search{
+  border: 1px solid black;
+  border-radius: 30%;
+  background: #90caf9 !important;
+  color: black;
+  padding: 10px;
+}
+
+@media (max-width<=768){
+  rigth-text{
+    display: none;
+  }
+}
